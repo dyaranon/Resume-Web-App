@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>More Page</title>
+         <!-- CSS Files-->
+        <link rel="stylesheet" type="text/css" href="../styles/crow.css">
+        <link rel="stylesheet" type="text/css" href="../styles/w3.css">
+        <link rel="stylesheet" type="text/css" href="../styles/bootstrap.min.css">
+        <link rel="stylesheet" href="../styles/xterm.css" />
+        <!-- JavaScript Files-->
+        <script src="../scripts/xterm.min.js"></script>
+        <script type="text/JavaScript" src="../scripts/jquery.min.js"></script>
+        <script src="../styles/bootstrap.min.js"></script>
+        <script type="text/JavaScript" src="../scripts/more.js"></script>
+        <link rel="shortcut icon" href="../images/Favicon.ico"> <!-- Favicon.ico image file-->
+    </head>
+
+    <body>
+        <header class="mobile" >
+            <div class="mobile">
+                <div class="w3-row">
+                    <div class="w3-col s12 w3-center">
+                        <div class="chaletFont1">
+                            <a class="mobile" style="color: white" href="/">DAVID YARANON</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-row w3-center">
+                    <div class="w3-col s12">
+                        <div class="chaletFont0">
+                            <a href="/">HOME</a> &nbsp; 
+                            <a href="csprojects.html">CS PROJECTS</a> &nbsp;&nbsp;
+                            <a href="more.html">MORE</a> &nbsp;
+                        </div>
+                     </div>
+                </div>
+            </div>   
+        </header>
+        <header class="mobile2" >
+            <div class="mobile2">
+                <div class="w3-row">
+                    <div class="w3-col s12 w3-center">
+                        <div class="chaletFont1">
+                            <a class="mobile2" style="color: white" href="/">DAVID YARANON</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-row w3-center">
+                    <div class="w3-col s12">
+                        <div class="chaletFont0">
+                            <a href="/">HOME</a> &nbsp; 
+                            <a href="csprojects.html">CS PROJECTS</a> &nbsp;&nbsp;
+                            <a href="more.html">MORE</a> &nbsp;
+                        </div>
+                     </div>
+                </div>
+            </div>   
+        </header>
+        <header class="desktop">
+            <div class="desktop">
+              <div class = "container">
+                <div class="w3-row-padding" style="padding-top: 10px;">
+                  <div class="w3-col s6">
+                      <div class="chaletFont1">
+                          <a style="color: white" href="/">DAVID YARANON</a>
+                      </div>
+                  </div>
+                   <div class="w3-col s6" style="text-align: right;">
+                      <div class="chaletFont0">
+                          <a href="/">HOME</a> &nbsp;
+                          <a href="csprojects.html">CS PROJECTS</a> &nbsp; 
+                          <a href="more.html">MORE</a>
+                      </div>
+                   </div>
+              </div>
+              </div>
+            </div>   
+        </header>
+        
+        <div id="home">
+            <div class="chaletFont2" style="text-align: center;">MORE</div>
+        </div>
+        <br><br>
+        
+      <div style="text-align: center;">
+        <h1 class="chaletFont0">Hangman Game</h1>
+      </div>
+      <div class="w3-row-padding w3-center" id ="pictureArea">
+          <img style="width: 144px; height: 290px;" src="../images/0_Hangman.png">
+      </div>
+      <br><br>
+      <div class = "crow fly gutter">
+        <div class = "chaletFontp1" style="font-size: 35px; text-align: center;" id=lettersGuessed>LETTERS GUSSED: </div> &nbsp; <div class = "chaletFontp1" style="font-size: 35px;text-align: center;"id="category">CATEGORY: </div> <div class = "chaletFontp1" style="font-size: 35px;text-align: center;" id="guesses">GUESSES REMIAINING: </div> &nbsp; <div class = "chaletFontp1" style="text-align: center;font-size: 35px;" id="dashes"></div> 
+      </div>
+      <br><br>
+        <div class="container" id="center">
+            <div class="w3-row-padding">
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('Q');document.getElementById('Q').disabled = true;document.getElementById('Q').style.opacity='0.5';" class="btn btn-dark form-control" id = "Q" >Q</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('W');document.getElementById('W').disabled = true;document.getElementById('W').style.opacity='0.5';" class="btn btn-dark form-control" id = "W" >W</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('E');document.getElementById('E').disabled = true;document.getElementById('E').style.opacity='0.5';" class="btn btn-dark form-control" id = "E" >E</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('R');document.getElementById('R').disabled = true;document.getElementById('R').style.opacity='0.5';" class="btn btn-dark form-control" id = "R" >R</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('T');document.getElementById('T').disabled = true;document.getElementById('T').style.opacity='0.5';" class="btn btn-dark form-control" id = "T" >T</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('Y');document.getElementById('Y').disabled = true;document.getElementById('Y').style.opacity='0.5';" class="btn btn-dark form-control" id = "Y" >Y</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('U');document.getElementById('U').disabled = true;document.getElementById('U').style.opacity='0.5';" class="btn btn-dark form-control" id = "U" >U</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('I');document.getElementById('I').disabled = true;document.getElementById('I').style.opacity='0.5';" class="btn btn-dark form-control" id = "I" >I</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('O');document.getElementById('O').disabled = true;document.getElementById('O').style.opacity='0.5';" class="btn btn-dark form-control" id = "O" >O</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('P');document.getElementById('P').disabled = true;document.getElementById('P').style.opacity='0.5';" class="btn btn-dark form-control" id = "P" >P</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container" id="center">
+            <div class="w3-row-padding">
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('A');document.getElementById('A').disabled = true;document.getElementById('A').style.opacity='0.5';" class="btn btn-dark form-control" id = "A" >A</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('S');document.getElementById('S').disabled = true;document.getElementById('S').style.opacity='0.5';" class="btn btn-dark form-control" id = "S" >S</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('D');document.getElementById('D').disabled = true;document.getElementById('D').style.opacity='0.5';" class="btn btn-dark form-control" id = "D" >D</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('F');document.getElementById('F').disabled = true;document.getElementById('F').style.opacity='0.5';" class="btn btn-dark form-control" id = "F" >F</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('G');document.getElementById('G').disabled = true;document.getElementById('G').style.opacity='0.5';" class="btn btn-dark form-control" id = "G" >G</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('H');document.getElementById('H').disabled = true;document.getElementById('H').style.opacity='0.5';" class="btn btn-dark form-control" id = "H" >H</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('J');document.getElementById('J').disabled = true;document.getElementById('J').style.opacity='0.5';" class="btn btn-dark form-control" id = "J" >J</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('K');document.getElementById('K').disabled = true;document.getElementById('K').style.opacity='0.5';" class="btn btn-dark form-control" id = "K" >K</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('L');document.getElementById('L').disabled = true;document.getElementById('L').style.opacity='0.5';" class="btn btn-dark form-control" id = "L" >L</button>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <div class="container" id="center">
+            <div class="w3-row-padding">
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('Z');document.getElementById('Z').disabled = true;document.getElementById('Z').style.opacity='0.5';" class="btn btn-dark form-control" id = "Z" >Z</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('X');document.getElementById('X').disabled = true;document.getElementById('X').style.opacity='0.5';" class="btn btn-dark form-control" id = "X" >X</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('C');document.getElementById('C').disabled = true;document.getElementById('C').style.opacity='0.5';" class="btn btn-dark form-control" id = "C" >C</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('V');document.getElementById('V').disabled = true;document.getElementById('V').style.opacity='0.5';" class="btn btn-dark form-control" id = "V" >V</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('B');document.getElementById('B').disabled = true;document.getElementById('B').style.opacity='0.5';" class="btn btn-dark form-control" id = "B" >B</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('N');document.getElementById('N').disabled = true;document.getElementById('N').style.opacity='0.5';" class="btn btn-dark form-control" id = "N" >N</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('M');document.getElementById('M').disabled = true;document.getElementById('M').style.opacity='0.5';" class="btn btn-dark form-control" id = "M" >M</button>
+                </div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="w3-col s1">
+                  <button style="width: 60px;" onclick="clickStartGame()" class = "btn btn-primary form-control" id="start">START</button>
+                </div>
+            </div>
+        </div>
+      <br><br>
+      <div class="crow fly gutter">
+        <p1 class="chaletFontp1" id="displayMessage" style="font-size: 35px;text-align: center;"></p1>
+      </div> 
+      <div class="container" style="text-align: center;">
+        <p1 class = "chaletFont8">
+          One of my hobbies is filmmaking. Here's a compilation of films I've produced.
+        </p1>
+        <br><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/R0S1dIZXnMs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <footer>
+        <div class="container" >
+            <div class="row" >
+                <div class = "col-sm">
+                    <a href="http://www.github.com/dyaranon" target="blank">
+                        <img src="../images/github-logo.png" id="images">
+                    </a>
+                    <p5 class="chaletFontp1">GITHUB</p5>
+                </div>
+                <div class="col-sm">
+                    <a href="https://www.linkedin.com/in/david-yaranon-06140019a/" target="blank">
+                        <img src="../images/linkedin-logo.png" id="images">
+                    </a>
+                    <p5 class="chaletFontp1">LINKEDIN</p5>
+                </div>
+                <div class="col-sm">
+                    <a href="https://ucmerced.box.com/s/vzzmsxgvkmu6sf6w7g4edjoz3a0eju50" target="blank">
+                        <img src="../images/resume-picture.png" id="images">
+                    </a>
+                    <p5 class="chaletFontp1">RESUME</p5>
+                </div>
+                <div class="col-sm">
+                    <a href="https://www.instagram.com/davidyaranon/" target="blank">
+                        <img src="../images/instagram-logo.png" id="images">
+                    </a>
+                    <p5 class="chaletFontp1">INSTAGRAM</p5>
+                </div>
+            </div>
+        </div>
+    <br><br>
+    </footer>    
+    <footer style="text-align: center;">&copy; Copyright 2021 David Yaranon</footer>
+    <br>
+
+
+
+</html>
+

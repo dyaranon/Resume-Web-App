@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="../styles/crow.css"> <!-- CSS Files-->
+        <link rel="stylesheet" type="text/css" href="../styles/w3.css">
+        <link rel="stylesheet" type="text/css" href="../styles/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../styles/codemirror.css">
+        <link rel="stylesheet" type="text/css" href="../styles/dracula.css">
+        <link rel="stylesheet" type="text/css" href="../styles/gruvbox-dark.css">
+        <script src="../scripts/codemirror.js" type="text/JavaScript"></script>  <!-- JavaScript Files-->
+        <script type="text/JavaScript" src="../scripts/jquery.min.js"></script>
+        <script src="../styles/bootstrap.min.js"></script>
+        <script src="../scripts/xml.js" type="text/JavaScript"></script>
+        <script src="../scripts/javascript.js" type="text/JavaScript"></script>
+        <script src="../scripts/clike.js" type="text/JavaScript"></script>
+        <script type="text/JavaScript" src="../scripts/main.js"></script> <!-- JavaScript file-->
+        <link rel="shortcut icon" href="../images/Favicon.ico"> <!-- Favicon.ico image file-->
+    </head>
+
+    <body>
+        <header class="mobile" >
+            <div class="mobile">
+                <div class="w3-row">
+                    <div class="w3-col s12 w3-center">
+                        <div class="chaletFont1">
+                            <a class="mobile" style="color: white" href="/">DAVID YARANON</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-row w3-center">
+                    <div class="w3-col s12">
+                        <div class="chaletFont0">
+                            <a href="/">HOME</a> &nbsp; 
+                            <a href="csprojects.html">CS PROJECTS</a> &nbsp;&nbsp;
+                            <a href="more.html">MORE</a> &nbsp;
+                        </div>
+                     </div>
+                </div>
+            </div>   
+        </header>
+        <header class="mobile2" >
+            <div class="mobile2">
+                <div class="w3-row">
+                    <div class="w3-col s12 w3-center">
+                        <div class="chaletFont1">
+                            <a class="mobile2" style="color: white" href="/">DAVID YARANON</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-row w3-center">
+                    <div class="w3-col s12">
+                        <div class="chaletFont0">
+                            <a href="/">HOME</a> &nbsp; 
+                            <a href="csprojects.html">CS PROJECTS</a> &nbsp;&nbsp;
+                            <a href="more.html">MORE</a> &nbsp;
+                        </div>
+                     </div>
+                </div>
+            </div>   
+        </header>
+        <header class="desktop">
+            <div class="desktop">
+                <div class = "container">
+                    <div class="w3-row-padding" style="padding-top: 10px;">
+                        <div class="w3-col s6">
+                            <div class="chaletFont1">
+                                <a style="color: white" href="/">DAVID YARANON</a>
+                            </div>
+                        </div>
+                         <div class="w3-col s6" style="text-align: right;">
+                            <div class="chaletFont0">
+                                <a href="/">HOME</a> &nbsp;
+                                <a href="csprojects.html">CS PROJECTS</a> &nbsp; 
+                                <a href="more.html">MORE</a>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>   
+        </header>
+        
+        <div id="home">
+            <div class="chaletFont2" style="text-align: center;">HOME</div>
+        </div>
+        
+        <div class="container" style="text-align: center;">
+            <p1 class = "chaletFont3"> My name is David Yaranon and I am currently a third 
+                year Computer Science and Engineering major at the 
+                University of Califronia, Merced. On this webpage, you can some of my 
+                projects I have worked on relating to computer science 
+                (including the source code used to make this website using the 
+                <a href="https://codemirror.net/" target="blank">code 
+                mirror text editor API</a>). I'm not a web designer by any means, but
+                I thought it would be a nice place to compile all of my
+                work and learn new things (HTML, JavaScript, etc.) </p1>
+        </div>
+        <div class = "crow fly gutter">
+            <div class = "chaletFont0">
+                <p style="color: #303030"> index.html (home page) </p>
+            </div>
+        </div>
+        <div class = "crow fly gutter">
+            <div class="w3-row">
+                <div class="w3-col s12 w3-right">
+                    <div class = "chaletFont4">
+                        <p style="color: #303030"> index.html (home page) </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- BELOW IS A COPY OF THE SOURCE CODE SO THAT PEOPLE CAN VIEW IT IN THE CODE MIRROR EDITOR-->
+<textarea id="editor1">
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="../styles/crow.css"> <!-- CSS Files-->
+        <link rel="stylesheet" type="text/css" href="../styles/w3.css">
+        <link rel="stylesheet" type="text/css" href="../styles/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../styles/codemirror.css">
+        <link rel="stylesheet" type="text/css" href="../styles/dracula.css">
+        <link rel="stylesheet" type="text/css" href="../styles/gruvbox-dark.css">
+        <script src="../scripts/codemirror.js" type="text/JavaScript"></script>  <!-- JavaScript Files-->
+        <script type="text/JavaScript" src="../scripts/jquery.min.js"></script>
+        <script src="../styles/bootstrap.min.js"></script>
+        <script src="../scripts/xml.js" type="text/JavaScript"></script>
+        <script src="../scripts/javascript.js" type="text/JavaScript"></script>
+        <script src="../scripts/clike.js" type="text/JavaScript"></script>
+        <script type="text/JavaScript" src="../scripts/main.js"></script> 
+        <link rel="shortcut icon" href="../images/Favicon.ico"> <!-- Favicon.ico image file-->
+    </head>
+
+    <body>
+        <header class="mobile" >
+            <div class="mobile">
+                <div class="w3-row">
+                    <div class="w3-col s12 w3-center">
+                        <div class="chaletFont1">
+                            <a class="mobile" style="color: white" href="/">DAVID YARANON</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-row w3-center">
+                    <div class="w3-col s12">
+                        <div class="chaletFont0">
+                            <a href="/">HOME</a> &nbsp; 
+                            <a href="csprojects.html">CS PROJECTS</a> &nbsp;&nbsp;
+                            <a href="more.html">MORE</a> &nbsp;
+                        </div>
+                     </div>
+                </div>
+            </div>   
+        </header>
+        <header class="mobile2" >
+            <div class="mobile2">
+                <div class="w3-row">
+                    <div class="w3-col s12 w3-center">
+                        <div class="chaletFont1">
+                            <a class="mobile2" style="color: white" href="/">DAVID YARANON</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-row w3-center">
+                    <div class="w3-col s12">
+                        <div class="chaletFont0">
+                            <a href="/">HOME</a> &nbsp; 
+                            <a href="csprojects.html">CS PROJECTS</a> &nbsp;&nbsp;
+                            <a href="more.html">MORE</a> &nbsp;
+                        </div>
+                     </div>
+                </div>
+            </div>   
+        </header>
+        <header class="desktop">
+            <div class="desktop">
+                <div class="w3-row-padding" style="padding-top: 10px;">
+                    <div class="w3-col s6">
+                        <div class="chaletFont1">
+                            <a style="color: white" href="/">DAVID YARANON</a>
+                        </div>
+                    </div>
+                     <div class="w3-col s6" style="text-align: right;">
+                        <div class="chaletFont0">
+                            <a href="/">HOME</a> &nbsp;
+                            <a href="csprojects.html">CS PROJECTS</a> &nbsp; 
+                            <a href="more.html">MORE</a>
+                        </div>
+                     </div>
+                </div>
+            </div>   
+        </header>
+        
+        <div id="container">
+            <div class="chaletFont2" style="text-align: center;">HOME</div>
+        </div>
+        
+        <div class="container" style="text-align: center;">
+            <p1 class = "chaletFont3"> My name is David Yaranon and I am currently a third 
+                year Computer Science and Engineering major at the 
+                University of Califronia, Merced! On this webpage, you can see all my 
+                projects I have worked on relating to computer science 
+                (including the source code used to make this website using the 
+                <a href="https://codemirror.net/" target="blank">code 
+                mirror text editor API</a>). I'm not a web designer by any means, but
+                I thought it would be a nice place to compile all of my
+                work and learn new things (HTML, JavaScript, etc.) Have a look around! </p1>
+        </div>
+        <div class = "crow fly gutter">
+            <div class = "chaletFont0">
+                <p style="color: #303030"> index.html (home page) </p>
+            </div>
+        </div>
+        <textarea id="editor1">
+        <textarea id="editor2">
+        <textarea id="editor3">
+        <textarea id="editor4">
+        <textarea id="editor5">
+        <textarea id="editor6">
+        <textarea id="editor7">
+            <footer>
+                <div class="container">
+                    <div class="row" style="height: 100px;">
+                        <div class = "col-sm">
+                            <a href="http://www.github.com/dyaranon" target="blank">
+                                <img src="../images/github-logo.png" style="height: 100px; width: 100px;">
+                            </a>
+                            <p5 class="chaletFontp1">GITHUB</p5>
+                        </div>
+                        <div class="col-sm">
+                            <a href="https://www.linkedin.com/in/david-yaranon-06140019a/" target="blank">
+                                <img src="../images/linkedin-logo.png" id="images">
+                            </a>
+                            <p5 class="chaletFontp1">LINKEDIN</p5>
+                        </div>
+                        <div class="col-sm">
+                            <a href="https://ucmerced.box.com/s/vzzmsxgvkmu6sf6w7g4edjoz3a0eju50" target="blank">
+                                <img src="../images/resume-picture.png" id="images">
+                            </a>
+                            <p5 class="chaletFontp1">RESUME</p5>
+                        </div>
+                        <div class="col-sm">
+                            <a href="https://www.instagram.com/davidyaranon/" target="blank">
+                                <img src="../images/instagram-logo.png" id="images">
+                            </a>
+                            <p5 class="chaletFontp1">INSTAGRAM</p5>
+                        </div>
+                    </div>
+                </div>
+            </footer>    
+            <br><br>
+            <footer style="text-align: center;">&copy; Copyright 2021 David Yaranon</footer>
+            <br>
+        </body>
+        </html>
+        </textarea> <!-- END -->
+
+        <div class = "crow fly gutter">
+            <div class="w3-row">
+                <div class="w3-col s12 w3-right">
+                    <div class = "chaletFont4">
+                        <p style="color: #303030"> csprojects.html </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ <!------------------------------------------------------------------------------------->       
+<textarea id="editor2"><!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Projects Page</title>
+         <!-- CSS Files-->
+        <link rel="stylesheet" type="text/css" href="../styles/crow.css">
+        <link rel="stylesheet" type="text/css" href="../styles/w3.css">
+        <link rel="stylesheet" type="text/css" href="../styles/bootstrap.min.css">
+        <link rel="stylesheet" href="../styles/xterm.css" />
+        <!-- JavaScript Files-->
+        <script src="../scripts/xterm.min.js"></script>
+        <script type="text/JavaScript" src="../scripts/jquery.min.js"></script>
+        <script src="../styles/bootstrap.min.js"></script>
+        <script type="text/JavaScript" src="../scripts/csprojects.js"></script>
+        <link rel="shortcut icon" href="../images/Favicon.ico"> <!-- Favicon.ico image file-->
+    </head>
+
+    <body>
+        <header class="mobile" >
+            <div class="mobile">
+                <div class="w3-row">
+                    <div class="w3-col s12 w3-center">
+                        <div class="chaletFont1">
+                            <a class="mobile" style="color: white" href="/">DAVID YARANON</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-row w3-center">
+                    <div class="w3-col s12">
+                        <div class="chaletFont0">
+                            <a href="/">HOME</a> &nbsp; 
+                            <a href="csprojects.html">CS PROJECTS</a> &nbsp;&nbsp;
+                            <a href="more.html">MORE</a> &nbsp;
+                        </div>
+                     </div>
+                </div>
+            </div>   
+        </header>
+        <header class="mobile2" >
+            <div class="mobile2">
+                <div class="w3-row">
+                    <div class="w3-col s12 w3-center">
+                        <div class="chaletFont1">
+                            <a class="mobile2" style="color: white" href="/">DAVID YARANON</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-row w3-center">
+                    <div class="w3-col s12">
+                        <div class="chaletFont0">
+                            <a href="/">HOME</a> &nbsp; 
+                            <a href="csprojects.html">CS PROJECTS</a> &nbsp;&nbsp;
+                            <a href="more.html">MORE</a> &nbsp;
+                        </div>
+                     </div>
+                </div>
+            </div>   
+        </header>
+        <header class="desktop">
+            <div class="desktop">
+                <div class = "container">
+                    <div class="w3-row-padding" style="padding-top: 10px;">
+                        <div class="w3-col s6">
+                            <div class="chaletFont1">
+                                <a style="color: white" href="/">DAVID YARANON</a>
+                            </div>
+                        </div>
+                         <div class="w3-col s6" style="text-align: right;">
+                            <div class="chaletFont0">
+                                <a href="/">HOME</a> &nbsp;
+                                <a href="csprojects.html">CS PROJECTS</a> &nbsp; 
+                                <a href="more.html">MORE</a>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>   
+        </header>
+        
+        <div id="projects">
+            <div class="chaletFont2" style="text-align: center;">PROJECTS</div>
+        </div>
+        
+        <div class="container" style="text-align: center;">
+            <p1 class = "chaletFont3" style="text-align: center;" id="test">
+            I have all of my projects on my github linked <a href="https://www.github.com/dyaranon" target="blank">here</a>,
+            and a virtual terminal where you can run some code!
+            </p1>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
+        
+        <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+            <div id="terminal"></div>
+        </div>
+
+      <footer>
+        <div class="container" >
+            <div class="row" style="height: 100px;">
+                <div class = "col-sm">
+                    <a href="http://www.github.com/dyaranon" target="blank">
+                        <img src="../images/github-logo.png" style="height: 100px; width: 100px;">
+                    </a>
+                    <p5 class="chaletFontp1">GITHUB</p5>
+                </div>
+                <div class="col-sm">
+                    <a href="https://www.linkedin.com/in/david-yaranon-06140019a/" target="blank">
+                        <img src="../images/linkedin-logo.png" id="images">
+                    </a>
+                    <p5 class="chaletFontp1">LINKEDIN</p5>
+                </div>
+                <div class="col-sm">
+                    <a href="https://ucmerced.box.com/s/vzzmsxgvkmu6sf6w7g4edjoz3a0eju50" target="blank">
+                        <img src="../images/resume-picture.png" id="images">
+                    </a>
+                    <p5 class="chaletFontp1">RESUME</p5>
+                </div>
+                <div class="col-sm">
+                    <a href="https://www.instagram.com/davidyaranon/" target="blank">
+                        <img src="../images/instagram-logo.png" id="images">
+                    </a>
+                    <p5 class="chaletFontp1">INSTAGRAM</p5>
+                </div>
+            </div>
+        </div>
+    </footer>    
+    <br><br>
+    <footer style="text-align: center;">&copy; Copyright 2021 David Yaranon</footer>
+    <br>
+    </body>
+</html>    
+</textarea> <!----------------------------------------------------------->
+
+        <div class = "crow fly gutter">
+            <div class="w3-row">
+                <div class="w3-col s12 w3-right">
+                    <div class = "chaletFont4">
+                        <p style="color: #303030"> more.html </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--------------------------------------------------------------------------------->
+<textarea id="editor3"><!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>More Page</title>
+         <!-- CSS Files-->
+        <link rel="stylesheet" type="text/css" href="../styles/crow.css">
+        <link rel="stylesheet" type="text/css" href="../styles/w3.css">
+        <link rel="stylesheet" type="text/css" href="../styles/bootstrap.min.css">
+        <link rel="stylesheet" href="../styles/xterm.css" />
+        <!-- JavaScript Files-->
+        <script src="../scripts/xterm.min.js"></script>
+        <script type="text/JavaScript" src="../scripts/jquery.min.js"></script>
+        <script src="../styles/bootstrap.min.js"></script>
+        <script type="text/JavaScript" src="../scripts/more.js"></script>
+        <link rel="shortcut icon" href="../images/Favicon.ico"> <!-- Favicon.ico image file-->
+    </head>
+
+    <body>
+        <header class="mobile" >
+            <div class="mobile">
+                <div class="w3-row">
+                    <div class="w3-col s12 w3-center">
+                        <div class="chaletFont1">
+                            <a class="mobile" style="color: white" href="/">DAVID YARANON</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-row w3-center">
+                    <div class="w3-col s12">
+                        <div class="chaletFont0">
+                            <a href="/">HOME</a> &nbsp; 
+                            <a href="csprojects.html">CS PROJECTS</a> &nbsp;&nbsp;
+                            <a href="more.html">MORE</a> &nbsp;
+                        </div>
+                     </div>
+                </div>
+            </div>   
+        </header>
+        <header class="mobile2" >
+            <div class="mobile2">
+                <div class="w3-row">
+                    <div class="w3-col s12 w3-center">
+                        <div class="chaletFont1">
+                            <a class="mobile2" style="color: white" href="/">DAVID YARANON</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-row w3-center">
+                    <div class="w3-col s12">
+                        <div class="chaletFont0">
+                            <a href="/">HOME</a> &nbsp; 
+                            <a href="csprojects.html">CS PROJECTS</a> &nbsp;&nbsp;
+                            <a href="more.html">MORE</a> &nbsp;
+                        </div>
+                     </div>
+                </div>
+            </div>   
+        </header>
+        <header class="desktop">
+            <div class="desktop">
+              <div class = "container">
+                <div class="w3-row-padding" style="padding-top: 10px;">
+                  <div class="w3-col s6">
+                      <div class="chaletFont1">
+                          <a style="color: white" href="/">DAVID YARANON</a>
+                      </div>
+                  </div>
+                   <div class="w3-col s6" style="text-align: right;">
+                      <div class="chaletFont0">
+                          <a href="/">HOME</a> &nbsp;
+                          <a href="csprojects.html">CS PROJECTS</a> &nbsp; 
+                          <a href="more.html">MORE</a>
+                      </div>
+                   </div>
+              </div>
+              </div>
+            </div>   
+        </header>
+        
+        <div id="home">
+            <div class="chaletFont2" style="text-align: center;">MORE</div>
+        </div>
+        <br><br>
+        
+      <div style="text-align: center;">
+        <h1 class="chaletFont5">Hangman Game</h1>
+      </div>
+      <div class="w3-row-padding w3-center" id ="pictureArea">
+          <img style="width: 144px; height: 290px;" src="../images/0_Hangman.png">
+      </div>
+      <br><br>
+      <div class = "crow fly gutter">
+        <div class = "chaletFontp1" style="font-size: 35px; text-align: center;" id=lettersGuessed>LETTERS GUSSED: </div> &nbsp; <div class = "chaletFontp1" style="font-size: 35px;text-align: center;"id="category">CATEGORY: </div> <div class = "chaletFontp1" style="font-size: 35px;text-align: center;" id="guesses">GUESSES REMIAINING: </div> &nbsp; <div class = "chaletFontp1" style="text-align: center;font-size: 35px;" id="dashes"></div> 
+      </div>
+      <br><br>
+        <div class="container" id="center">
+            <div class="w3-row-padding">
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('Q');document.getElementById('Q').disabled = true;document.getElementById('Q').style.opacity='0.5';" class="btn btn-dark form-control" id = "Q" >Q</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('W');document.getElementById('W').disabled = true;document.getElementById('W').style.opacity='0.5';" class="btn btn-dark form-control" id = "W" >W</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('E');document.getElementById('E').disabled = true;document.getElementById('E').style.opacity='0.5';" class="btn btn-dark form-control" id = "E" >E</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('R');document.getElementById('R').disabled = true;document.getElementById('R').style.opacity='0.5';" class="btn btn-dark form-control" id = "R" >R</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('T');document.getElementById('T').disabled = true;document.getElementById('T').style.opacity='0.5';" class="btn btn-dark form-control" id = "T" >T</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('Y');document.getElementById('Y').disabled = true;document.getElementById('Y').style.opacity='0.5';" class="btn btn-dark form-control" id = "Y" >Y</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('U');document.getElementById('U').disabled = true;document.getElementById('U').style.opacity='0.5';" class="btn btn-dark form-control" id = "U" >U</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('I');document.getElementById('I').disabled = true;document.getElementById('I').style.opacity='0.5';" class="btn btn-dark form-control" id = "I" >I</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('O');document.getElementById('O').disabled = true;document.getElementById('O').style.opacity='0.5';" class="btn btn-dark form-control" id = "O" >O</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('P');document.getElementById('P').disabled = true;document.getElementById('P').style.opacity='0.5';" class="btn btn-dark form-control" id = "P" >P</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container" id="center">
+            <div class="w3-row-padding">
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('A');document.getElementById('A').disabled = true;document.getElementById('A').style.opacity='0.5';" class="btn btn-dark form-control" id = "A" >A</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('S');document.getElementById('S').disabled = true;document.getElementById('S').style.opacity='0.5';" class="btn btn-dark form-control" id = "S" >S</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('D');document.getElementById('D').disabled = true;document.getElementById('D').style.opacity='0.5';" class="btn btn-dark form-control" id = "D" >D</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('F');document.getElementById('F').disabled = true;document.getElementById('F').style.opacity='0.5';" class="btn btn-dark form-control" id = "F" >F</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('G');document.getElementById('G').disabled = true;document.getElementById('G').style.opacity='0.5';" class="btn btn-dark form-control" id = "G" >G</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('H');document.getElementById('H').disabled = true;document.getElementById('H').style.opacity='0.5';" class="btn btn-dark form-control" id = "H" >H</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('J');document.getElementById('J').disabled = true;document.getElementById('J').style.opacity='0.5';" class="btn btn-dark form-control" id = "J" >J</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('K');document.getElementById('K').disabled = true;document.getElementById('K').style.opacity='0.5';" class="btn btn-dark form-control" id = "K" >K</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('L');document.getElementById('L').disabled = true;document.getElementById('L').style.opacity='0.5';" class="btn btn-dark form-control" id = "L" >L</button>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <div class="container" id="center">
+            <div class="w3-row-padding">
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('Z');document.getElementById('Z').disabled = true;document.getElementById('Z').style.opacity='0.5';" class="btn btn-dark form-control" id = "Z" >Z</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('X');document.getElementById('X').disabled = true;document.getElementById('X').style.opacity='0.5';" class="btn btn-dark form-control" id = "X" >X</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('C');document.getElementById('C').disabled = true;document.getElementById('C').style.opacity='0.5';" class="btn btn-dark form-control" id = "C" >C</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('V');document.getElementById('V').disabled = true;document.getElementById('V').style.opacity='0.5';" class="btn btn-dark form-control" id = "V" >V</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('B');document.getElementById('B').disabled = true;document.getElementById('B').style.opacity='0.5';" class="btn btn-dark form-control" id = "B" >B</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('N');document.getElementById('N').disabled = true;document.getElementById('N').style.opacity='0.5';" class="btn btn-dark form-control" id = "N" >N</button>
+                </div>
+                <div class="w3-col s1">
+                  <button style="width: 40px;" type="submit" onclick="clickLetter('M');document.getElementById('M').disabled = true;document.getElementById('M').style.opacity='0.5';" class="btn btn-dark form-control" id = "M" >M</button>
+                </div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="w3-col s1">
+                  <button style="width: 60px;" onclick="clickStartGame()" class = "btn btn-primary form-control" id="start">START</button>
+                </div>
+            </div>
+        </div>
+      <br><br>
+      <div class="crow fly gutter">
+        <p1 class="chaletFontp1" id="displayMessage" style="font-size: 35px;text-align: center;"></p1>
+      </div> 
+    
+    <footer>
+        <div class="container" >
+            <div class="row" >
+                <div class = "col-sm">
+                    <a href="http://www.github.com/dyaranon" target="blank">
+                        <img src="../images/github-logo.png" id="images">
+                    </a>
+                    <p5 class="chaletFontp1">GITHUB</p5>
+                </div>
+                <div class="col-sm">
+                    <a href="https://www.linkedin.com/in/david-yaranon-06140019a/" target="blank">
+                        <img src="../images/linkedin-logo.png" id="images">
+                    </a>
+                    <p5 class="chaletFontp1">LINKEDIN</p5>
+                </div>
+                <div class="col-sm">
+                    <a href="https://ucmerced.box.com/s/vzzmsxgvkmu6sf6w7g4edjoz3a0eju50" target="blank">
+                        <img src="../images/resume-picture.png" id="images">
+                    </a>
+                    <p5 class="chaletFontp1">RESUME</p5>
+                </div>
+                <div class="col-sm">
+                    <a href="https://www.instagram.com/davidyaranon/" target="blank">
+                        <img src="../images/instagram-logo.png" id="images">
+                    </a>
+                    <p5 class="chaletFontp1">INSTAGRAM</p5>
+                </div>
+            </div>
+        </div>
+    <br><br>
+    </footer>    
+    <footer style="text-align: center;">&copy; Copyright 2021 David Yaranon</footer>
+    <br>
+</html>    
+</textarea> <!---------------------------------------------------------------------------------------------->
+
+<div class = "crow fly gutter">
+    <div class="w3-row">
+        <div class="w3-col s12 w3-right">
+            <div class = "chaletFont4">
+                <p style="color: #303030"> main.js </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ANOTHER COPY THIS TIME JAVASCRIPT SOURCE CODE-->
+<textarea id="editor4">
+function initEditors(){
+    loadTextEditor1();
+    loadTextEditor2();
+    loadTextEditor3();
+    loadTextEditor4();
+    loadTextEditor5();
+    loadTextEditor6();
+    loadTextEditor7();
+}
+
+function loadTextEditor1(){
+    var e1 = CodeMirror.fromTextArea(document.getElementById('editor1'), {
+        lineNumbers : true,
+        mode: "xml",
+        theme: "gruvbox-dark",
+        scrollbarStyle: null
+    });
+}
+
+    
+function loadTextEditor2(){
+    var e2 = CodeMirror.fromTextArea(document.getElementById('editor2'),{
+        lineNumbers : true,
+        mode: "javascript",
+        theme: "gruvbox-dark",
+        scrollbarStyle: null
+    });
+}
+
+function loadTextEditor3(){
+    var e3 = CodeMirror.fromTextArea(document.getElementById('editor3'),{
+        lineNumbers : true,
+        mode: "clike",
+        theme: "gruvbox-dark",
+        scrollbarStyle: null
+    });
+}
+
+function loadTextEditor4(){
+    var e3 = CodeMirror.fromTextArea(document.getElementById('editor4'),{
+        lineNumbers : true,
+        mode: "clike",
+        theme: "gruvbox-dark",
+        scrollbarStyle: null
+    });
+}
+
+function loadTextEditor5(){
+    var e3 = CodeMirror.fromTextArea(document.getElementById('editor5'),{
+        lineNumbers : true,
+        mode: "clike",
+        theme: "gruvbox-dark",
+        scrollbarStyle: null
+    });
+}
+
+function loadTextEditor6(){
+    var e3 = CodeMirror.fromTextArea(document.getElementById('editor6'),{
+        lineNumbers : true,
+        mode: "clike",
+        theme: "gruvbox-dark",
+        scrollbarStyle: null
+    });
+}
+
+function loadTextEditor7(){
+    var e3 = CodeMirror.fromTextArea(document.getElementById('editor7'),{
+        lineNumbers : true,
+        mode: "clike",
+        theme: "gruvbox-dark",
+        scrollbarStyle: null
+    });
+}
+
+$(document).ready(function(){
+    initEditors();
+});
+</textarea> <!-- END -->
+
+<div class = "crow fly gutter">
+    <div class="w3-row">
+        <div class="w3-col s12 w3-right">
+            <div class = "chaletFont4">
+                <p style="color: #303030"> csprojects.js </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<textarea id="editor5">
+var term;
+let V = 0, E = 0, check1 = 0, check2 = 0, check3 = 0, check4 = 0, check5 = 0, check6 = 0, check7 = 0,input = 0, input1 = 0, input2 = 0, input3 = 0, input4 = 0, input5 = 0, count = 0, num_warriors = 0;
+let guessedLetters = [], listOfWarriors = [], heapList = [], maxSubList = [], quickList = [];
+let MST = "";
+var ID;
+
+$(document).ready(function(){
+    runTerminal();
+    //https://gist.github.com/gordonbrander/2230317
+    //Generates random session ID :)
+    ID = '_' + Math.random().toString(36).substr(2, 9);
+    //console.log(ID);
+});
+
+function runHangman(letter){
+    $.get("/hangman/" + ID, {"theLetter": letter}, function(response){
+        let json = JSON.parse(response);
+        if(letter == "~~~~~"){ //init run
+            term.write("RUNNING HANGMAN.cpp\r\n");
+            guessedLetters = [];
+            //console.log(json);
+            term.write(json["state"] + "\r\n");
+            term.write("Category: " + json["category"] + "\t");
+            for(let i = 0; i < json["dashes"]; i++){
+                term.write(" _");
+            }
+            term.write("\r\nGuesses remiaining: "+ json["guesses"] + "\r\n");
+            term.write(json["message"]);
+        }
+        else{
+            if(json["err"]){
+                term.write(json["err"]);
+            }
+            else{
+                term.write(json["state"] + "\r\n");
+                term.write("Category: " + json["category"] + "\t");
+                for(let i = 0; i < json.dashes.length; i++){
+                    term.write(json.dashes[i] + " ");
+                }
+                term.write("\r\nGuesses remiaining: "+ json["guesses"] + "\r\n");
+
+                if(json["lettersGuessed"]){ //Incorrect guess
+                    guessedLetters.push(json["lettersGuessed"]);
+                }
+                term.write("Letters Guessed: ");
+                for(let i = 0; i < guessedLetters.length; i++){
+                    term.write(guessedLetters[i] + " ");
+                }
+                term.write("\r\n");
+            }
+            if(json["message"]){
+                term.write(json["message"] + "\r\n");
+                check1 = 0;
+                term.write("\r\n\x1B[1;3;31mdyaranon@DEKTOP-123:\x1B[0m/mnt/e$ ");
+            }
+            else{
+                term.write("\r\nEnter your guess: ");
+            }
+        }
+    });
+}
+
+function runPalindrome(curr_line){
+    $.get("/palindromes/" + ID + "/" + curr_line, {}, function(response){
+        let x = JSON.parse(response);
+        for(let i = 0; i < x.words.length; i++){
+            term.write(x.words[i] + "\r\n");
+        }
+        term.write("\r\n\x1B[1;3;31mdyaranon@DEKTOP-123:\x1B[0m/mnt/e$ ");
+        check3 = 0;
+    });
+}
+
+function runWarriorsInit(curr_line){
+    if(curr_line <= 1){
+        term.write("\r\nNot enough warriors for the game!");
+        input = 0;
+    }
+    else{
+        term.write("\r\nEnter name for Warrior " + input + ": ");
+    }
+}
+
+function runWarriorsInput(curr_line){
+    listOfWarriors.push(curr_line);
+    if(input < num_warriors){
+        input++;
+        term.write("\r\nEnter name for Warrior " + input + ": ");
+    }
+    else{
+        runWarriors();
+    }
+}
+
+function runWarriors(){
+    $.get("/warriors/" + ID, {"list":listOfWarriors}, function(response){
+        let x = JSON.parse(response);
+        for(let i = 0; i < x.print.length; i++){
+            term.write(x.print[i]);
+        }
+        term.write("\r\n\x1B[1;3;31mdyaranon@DEKTOP-123:\x1B[0m/mnt/e$ ");
+        check2 = 0;
+        input = 0;
+        listOfWarriors = [];
+    });
+}
+
+function runTicTacToe(curr_line){
+    $.get("/tictactoe/" + ID, {"thePosition": curr_line}, function(response){
+        let x = JSON.parse(response);
+        if(x["gb"]){
+            for(let i = 0; i <= 2; i++){
+                for(let j = 0; j <= 4; j++){
+                    term.write(x.gb[i][j]);
+                }
+                term.write("\r\n");
+            }
+        }
+        if(x["turn"]){
+            term.write(x["turn"]);
+        }
+        if(x["message"]){
+            term.write(x["message"]);
+        }
+        if(x["win"]){
+            term.write(x["win"] + "\r\n\x1B[1;3;31mdyaranon@DEKTOP-123:\x1B[0m/mnt/e$ ");
+            check4 = 0;
+        }
+    });
+}
+
+function runHeapSortInput(curr_line){
+    if(input1 == 0){
+        input1 = curr_line;
+    }
+    else{
+        heapList.push(curr_line);
+        if(heapList.length == input1){
+            runHeapSort();
+        }
+    }
+}
+
+function runHeapSort(){
+    $.get("/heapsort/" + ID, {"listOfNums": heapList}, function (response){
+        let x = JSON.parse(response);
+        term.write(x["sort"] + ";");
+        term.write("\r\nOperation took: " + x["time"] + " ms\r\n\x1B[1;3;31mdyaranon@DEKTOP-123:\x1B[0m/mnt/e$ " );
+        check5 = 0;
+    });
+}
+
+function runMaxSubArrayInput(curr_line){
+    if(input2 == 0){
+        input2 = curr_line;
+    }
+    else{
+        maxSubList.push(curr_line);
+        if(maxSubList.length == input2){
+            runMaxSubArray();
+        }
+    }
+}
+
+function runMaxSubArray(){
+    $.get("/maxSubArray/" + ID, {"listOfNums": maxSubList}, function (response){
+        let x = JSON.parse(response);
+        term.write("\r\n" + x["max"]);
+        term.write("\r\nOperation took: " + x["time"] + " ms\r\n\x1B[1;3;31mdyaranon@DEKTOP-123:\x1B[0m/mnt/e$ " );
+        check6 = 0;
+    });
+}
+
+function runMSTInput(curr_line){
+    if(input4 == 0){
+        V = curr_line;
+        input4 = 1;
+        input5 = 1;
+    }
+    else if(input5 == 1){
+        E = curr_line;
+        input5 = 0;
+    }
+    else{
+        MST += curr_line.split(',') + ',';
+        count++;
+        if(count == E){
+            runMST();
+        }
+    }
+}
+
+function runMST(){
+    $.get("/MST/" + V + "/" + E + "/" + ID + "/" + MST,{}, function(response){
+        let x = JSON.parse(response);
+        for(let i = 1; i < x.ans.length; ++i)
+            term.write(x.ans[i] + "\r\n");
+    });
+}
+
+
+
+function checkInput(curr_line){
+    if(check1 == 1){
+        runHangman(curr_line)
+    }
+    else if(check2 == 1){
+        if(input == 0){
+            num_warriors = curr_line;
+            input = 1;
+            runWarriorsInit(curr_line);
+        }
+        else{
+            runWarriorsInput(curr_line);
+        }
+    }
+    else if(check3 == 1){
+        runPalindrome(curr_line);
+    }
+    else if(check4 == 1){
+        runTicTacToe(curr_line);
+    }
+    else if(check5 == 1){
+        runHeapSortInput(curr_line);
+    }
+    else if(check6 == 1){
+        runMaxSubArrayInput(curr_line);
+    }
+    else if(check7 == 1){
+        runMSTInput(curr_line);
+    }
+    else if(curr_line == 'HANGMAN' || curr_line == 'hangman'){
+        check1 = 1;
+        runHangman("~~~~~");
+    }
+    else if(curr_line == 'WARRIORS' || curr_line == 'warriors'){
+        check2 = 1;
+        listOfWarriors = [];
+        term.write("\r\nRUNNING WARRIORS.cpp\r\nEach warrior will have a base damage of 5 and a base health of 100.\r\nAt the beginning of each game, bonus health will be granted ranging from 0 - 10 (random, so some players might start off with more health).\r\nEach turn the warriors will be granted bonus damage ranging from 0 - 9\r\n(also random).The game ends when all but one warrior has 0 health remaining\r\n\r\nEnter number of warriors: ");
+    }
+    else if(curr_line == "PALINDOME" || curr_line == "PALINDOME FINDER" || curr_line == "palindrome" || curr_line == "palindrome finder"){
+        check3 = 1;
+        term.write("\r\nENTER A LIST OF WORDS SEPARATED BY A COMMA AND ENDING WITH THE WORD end; I WILL RETURN THE ONES WHICH ARE PALINDROMES AS WELL AS THE ONES WHICH ARE STILL VALID WORDS WHEN\r\nSPELLED BACKWARDS. (ALTERNATIVELY, DRAG A .TXT FILE)");
+    }
+    else if(curr_line == "TICTACTOE" || curr_line == "TIC TAC TOE" || curr_line == "tic tac toe" || curr_line == "TIC TAC TOE" || curr_line == "tic tac toe"){
+        check4 = 1;
+        term.write("\r\nRUNNING TICTACTOE.cpp");
+        runTicTacToe("2147483646");
+    }
+    else if(curr_line == "HEAP SORT" || curr_line == "heap sort"){
+        check5 = 1;
+        heapList = [];
+        term.write("\r\nRUNNING HEAP SORT\r\n");
+        term.write("Enter an integer number representing the number of elements to be sorted. Then, input the elements one at a time.");
+    }
+    else if(curr_line == "MAX SUB ARRAY" || curr_line == "max sub array"){
+        check6 = 1;
+        maxSubList = [];
+        term.write("\r\nRUNNING MAX SUB ARRAY\r\n");
+        term.write("Enter an integer number representing the number of elements in the array. Then, input the elements one at a time.");
+    }
+    else if(curr_line == "MINIMUM SPANNING TREE"){
+        check7 = 1;
+        term.write("\r\nRUNNING MINIMUM SPANNING TREE\r\n");
+        term.write("First, enter the number of vertices |V|, followed by the number of edges |E|.\r\nThen, enter 3 integers separated by a comma where the first number is\r\nvertex u, the second number is vertex v, and the third number is the weight\r\nbetween the two w(u,v). The vertices are numbered 0, 1,..., |V|-1.\r\nDo this |E| times to form a weighted undirected graph...");
+    }
+    else{
+        check1 = 0;
+        check2 = 0;
+        check3 = 0;
+        check4 = 0;
+        check5 = 0;
+        check6 = 0;
+        check7 = 0;
+        listOfWarriors = [];
+        guessedLetters = [];
+        heapList = [];
+        maxSubList = [];
+        quickList = [];
+        MST = [];
+        input = 0;
+        input1 = 0;
+        input2 = 0;
+        input3 = 0;
+        input4 = 0;
+        input5 = 0;
+        term.write("\r\nbash: " + curr_line + " command not found \r\n");
+    }
+}
+
+function runTerminal(){
+    term = new Terminal({
+        cursorBlink: "block"
+    });
+    term.open(document.getElementById('terminal'));
+    term.write('WELCOME! ' +
+        'I HAVE MOST OF MY PROJECTS (which are on my GitHub written in C++)\r\nREADY TO RUN IN THIS TERMINAL! ' +
+        'Type one of the following commands and I can run it ' +
+        'for you!: (PRESS THE UP ARROW KEY!) \n');
+    term.write("\r- HANGMAN");
+    term.write("\r\n- WARRIORS");
+    term.write("\r\n- TICTACTOE");
+    term.write("\r\n- HEAP SORT");
+    term.write("\r\n- MAX SUB ARRAY");
+    term.write("\r\n- PALINDROME FINDER");
+    term.write("\r\n- MINIMUM SPANNING TREE");
+    term.write("\r\n\x1B[1;3;31mdyaranon@DEKTOP-123:\x1B[0m/mnt/e$ ");
+    
+    let curr_line = '';
+    let pressed;
+    let bCount = 0, line = 0;
+    let cmds = ['HANGMAN', 'WARRIORS', 'TIC TAC TOE', 'HEAP SORT','MAX SUB ARRAY','PALINDOME', 'MINIMUM SPANNING TREE'];
+    term.on('key', function(key, ev) {
+        const printable = !ev.altKey && !ev.altGraphKey && !ev.ctrlKey && !ev.metaKey;
+        if(bCount < 0){
+            bCount = 0;
+        }
+        if(ev.keyCode === 38){ //Up arrow key
+            if(line == cmds.length){
+                line = 0;
+            }
+            if(pressed){
+                let len = curr_line.length;
+                while(len > 0){
+                    curr_line = curr_line.slice(0, curr_line.length -1);
+                    term.write('\b \b');
+                    len--;
+                }
+            }
+            curr_line = cmds[line];
+            term.write(curr_line);
+            line++;
+            pressed = true;
+        } else if (ev.keyCode === 13) { //enter
+            checkInput(curr_line);
+            curr_line = '';
+            bCount = 0;
+            term.write('\r\n');
+            if(check1 == 0 && check2 == 0 && check3 == 0 && check4 == 0 && check5 == 0 && check6 == 0 && check7 == 0){
+                term.write('\x1B[1;3;31mdyaranon@DEKTOP-123:\x1B[0m/mnt/e$ ');
+            }
+        } else if(ev.keyCode == 67 && ev.ctrlKey){ //ctrl+c
+            curr_line = '';
+            check1 = 0;
+            check2 = 0;
+            check3 = 0;
+            check4 = 0;
+            check5 = 0;
+            check6 = 0;
+            check7 = 0;
+            listOfWarriors = [];
+            guessedLetters = [];
+            heapList = [];
+            maxSubList = [];
+            quickList = [];
+            MST = [];
+            input = 0;
+            input1 = 0;
+            input2 = 0;
+            input3 = 0;
+            input4 = 0;
+            input5 = 0;
+            bCount = 0;
+            term.write('\r\n');
+            term.write('\x1B[1;3;31mdyaranon@DEKTOP-123:\x1B[0m/mnt/e$ ');
+        }else if (ev.keyCode === 8) { //backspace
+            bCount--;
+            if(bCount >= 0){
+                curr_line = curr_line.slice(0, curr_line.length -1);
+                term.write('\b \b');
+            }     
+        } else if (ev.keyCode != '38' && ev.keyCode != '40' && ev.keyCode != '39' && ev.keyCode != '37' && printable) {
+            curr_line += ev.key;
+            bCount++;
+            //console.log(curr_line, ev.key)
+            term.write(key);
+            line = 0;
+        }
+    });
+    term.on('paste', function(data) {
+        term.write(data);
+    });
+}
+
+function dropHandler(ev){
+    //console.log('File(s) dropped');
+  
+    // Prevent default behavior (Prevent file from being opened)
+    ev.preventDefault();
+  
+    if (ev.dataTransfer.files) {
+        let files = ev.dataTransfer.files;
+        let data = "";
+        file = files[0];
+        if(file.type.indexOf("text") == 0){
+            let reader = new FileReader();
+            reader.onload = function(ev){
+                let count = 0;
+                data = ev.target.result;
+                const words = data.split('\n').flatMap(line => line.split(/\s+/).filter(word => word === word.split('').reverse().join('')));
+                term.write("List of words valid when spelt backwards: ");
+                for(let i = 0; i < words.length; i++){
+                    term.write(words[i]+'\r\n');
+                    count++;
+                }
+                term.write("Number of palindromes: " + count + "\r\n");
+                term.write('\x1B[1;3;31mdyaranon@DEKTOP-123:\x1B[0m/mnt/e$ ');
+            }
+            reader.readAsText(file);
+        }
+    }
+
+}
+
+function dragOverHandler(ev) {
+  ev.preventDefault();
+  ev.stopPropagation();
+  ev.dataTransfer.dropEffect = 'copy';
+}    
+</textarea>
+
+<div class = "crow fly gutter">
+    <div class="w3-row">
+        <div class="w3-col s12 w3-right">
+            <div class = "chaletFont4">
+                <p style="color: #303030"> more.js </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<textarea id="editor6">
+var term;
+let check = 0;
+let guessedLettersGUI = [];
+let img = 0;
+var ID;
+
+function clickLetter(letter){
+    $.get("/hangmanGUI/" + ID, {"theLetter": letter}, function(response){
+		let jsonGUI = JSON.parse(response);
+		if(letter == "~"){
+			guessedLettersGUI = [];
+			lg = "";
+			img = 0;
+			let dashes = "";
+			document.getElementById("lettersGuessed").innerHTML = "LETTERS GUSSED: ";
+			document.getElementById("displayMessage").innerHTML = "";
+			document.getElementById('category').innerHTML = "CATEGORY: " + jsonGUI["category"];
+			document.getElementById("pictureArea").innerHTML = ' <img style="width: 144px; height: 290px;" 	src="../images/' + img.toString() + '_Hangman.png">'
+        	for(let i = 0; i < jsonGUI["dashes"]; i++){
+        	   dashes += "_ ";
+        	}
+        	document.getElementById('dashes').innerHTML = dashes;
+        	document.getElementById('guesses').innerHTML = "GUESSES REMIANING: " + jsonGUI["guesses"];
+		}
+		else{
+			let lg = "";
+			let HTMLdashes = "";
+        	if(jsonGUI["message"]){
+        	    document.getElementById("displayMessage").innerHTML = jsonGUI["message"];
+        	    check = 0;
+			}
+			else{
+				if(jsonGUI["lettersGuessed"]){ //Incorrect guess
+					guessedLettersGUI.push(jsonGUI["lettersGuessed"]);
+					img++;
+					document.getElementById("pictureArea").innerHTML = ' <img style="width: 144px; height: 290px;" src="../images/' + img.toString() + '_Hangman.png">'
+				}
+				for(let i = 0; i < guessedLettersGUI.length; i++){
+					lg += guessedLettersGUI[i];
+					lg += " ";
+				}
+				for(let i = 0; i < jsonGUI.dashes.length; i++){
+        	        HTMLdashes += (jsonGUI.dashes[i] + " ");
+				}
+
+			}
+			document.getElementById("lettersGuessed").innerHTML = "LETTERS GUSSED: " + lg;
+			document.getElementById("guesses").innerHTML = "GUESSES REMAINING: " + jsonGUI["guesses"];
+			document.getElementById('dashes').innerHTML = HTMLdashes;
+		}
+    });
+}
+
+function clickStartGame(){
+	resetButtons();
+	clickLetter("~");
+}
+
+
+$(document).ready(function(){
+	makeButtonsOpaque();
+	//https://gist.github.com/gordonbrander/2230317
+    //Generates random session ID :)
+    ID = '_' + Math.random().toString(36).substr(2, 9);
+    console.log(ID);
+});
+
+function makeButtonsOpaque(){
+	document.getElementById('A').disabled = true;
+	document.getElementById('A').style.opacity='0.5';
+	document.getElementById('B').disabled = true;
+	document.getElementById('B').style.opacity='0.5';
+	document.getElementById('C').disabled = true;
+	document.getElementById('C').style.opacity='0.5';
+	document.getElementById('D').disabled = true;
+	document.getElementById('D').style.opacity='0.5';
+	document.getElementById('E').disabled = true;
+	document.getElementById('E').style.opacity='0.5';
+	document.getElementById('F').disabled = true;
+	document.getElementById('F').style.opacity='0.5';
+	document.getElementById('G').disabled = true;
+	document.getElementById('G').style.opacity='0.5';
+	document.getElementById('H').disabled = true;
+	document.getElementById('H').style.opacity='0.5';
+	document.getElementById('I').disabled = true;
+	document.getElementById('I').style.opacity='0.5';
+	document.getElementById('J').disabled = true;
+	document.getElementById('J').style.opacity='0.5';
+	document.getElementById('K').disabled = true;
+	document.getElementById('K').style.opacity='0.5';
+	document.getElementById('L').disabled = true;
+	document.getElementById('L').style.opacity='0.5';
+	document.getElementById('M').disabled = true;
+	document.getElementById('M').style.opacity='0.5';
+	document.getElementById('N').disabled = true;
+	document.getElementById('N').style.opacity='0.5';
+	document.getElementById('O').disabled = true;
+	document.getElementById('O').style.opacity='0.5';
+	document.getElementById('P').disabled = true;
+	document.getElementById('P').style.opacity='0.5';
+	document.getElementById('Q').disabled = true;
+	document.getElementById('Q').style.opacity='0.5';
+	document.getElementById('R').disabled = true;
+	document.getElementById('R').style.opacity='0.5';
+	document.getElementById('S').disabled = true;
+	document.getElementById('S').style.opacity='0.5';
+	document.getElementById('T').disabled = true;
+	document.getElementById('T').style.opacity='0.5';
+	document.getElementById('U').disabled = true;
+	document.getElementById('U').style.opacity='0.5';
+	document.getElementById('V').disabled = true;
+	document.getElementById('V').style.opacity='0.5';
+	document.getElementById('W').disabled = true;
+	document.getElementById('W').style.opacity='0.5';
+	document.getElementById('X').disabled = true;
+	document.getElementById('X').style.opacity='0.5';
+	document.getElementById('Y').disabled = true;
+	document.getElementById('Y').style.opacity='0.5';
+	document.getElementById('Z').disabled = true;
+	document.getElementById('Z').style.opacity='0.5';
+}
+
+function resetButtons(){
+	document.getElementById('A').disabled = false;
+	document.getElementById('A').style.opacity='1';
+	document.getElementById('B').disabled = false;
+	document.getElementById('B').style.opacity='1';
+	document.getElementById('C').disabled = false;
+	document.getElementById('C').style.opacity='1';
+	document.getElementById('D').disabled = false;
+	document.getElementById('D').style.opacity='1';
+	document.getElementById('E').disabled = false;
+	document.getElementById('E').style.opacity='1';
+	document.getElementById('F').disabled = false;
+	document.getElementById('F').style.opacity='1';
+	document.getElementById('G').disabled = false;
+	document.getElementById('G').style.opacity='1';
+	document.getElementById('H').disabled = false;
+	document.getElementById('H').style.opacity='1';
+	document.getElementById('I').disabled = false;
+	document.getElementById('I').style.opacity='1';
+	document.getElementById('J').disabled = false;
+	document.getElementById('J').style.opacity='1';
+	document.getElementById('K').disabled = false;
+	document.getElementById('K').style.opacity='1';
+	document.getElementById('L').disabled = false;
+	document.getElementById('L').style.opacity='1';
+	document.getElementById('M').disabled = false;
+	document.getElementById('M').style.opacity='1';
+	document.getElementById('N').disabled = false;
+	document.getElementById('N').style.opacity='1';
+	document.getElementById('O').disabled = false;
+	document.getElementById('O').style.opacity='1';
+	document.getElementById('P').disabled = false;
+	document.getElementById('P').style.opacity='1';
+	document.getElementById('Q').disabled = false;
+	document.getElementById('Q').style.opacity='1';
+	document.getElementById('R').disabled = false;
+	document.getElementById('R').style.opacity='1';
+	document.getElementById('S').disabled = false;
+	document.getElementById('S').style.opacity='1';
+	document.getElementById('T').disabled = false;
+	document.getElementById('T').style.opacity='1';
+	document.getElementById('U').disabled = false;
+	document.getElementById('U').style.opacity='1';
+	document.getElementById('V').disabled = false;
+	document.getElementById('V').style.opacity='1';
+	document.getElementById('W').disabled = false;
+	document.getElementById('W').style.opacity='1';
+	document.getElementById('X').disabled = false;
+	document.getElementById('X').style.opacity='1';
+	document.getElementById('Y').disabled = false;
+	document.getElementById('Y').style.opacity='1';
+	document.getElementById('Z').disabled = false;
+	document.getElementById('Z').style.opacity='1';
+}
+</textarea>
+        <div class = "crow fly gutter">
+            <div class="w3-row">
+                <div class="w3-col s12 w3-right">
+                    <div class = "chaletFont4">
+                        <p style="color: #303030"> main.cpp (I used the <a href="https://github.com/ipkn/crow" target="blank">Crow </a > web framework as a backend) </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- LAST COPY NOW IN C++ -->
+<textarea id="editor7">
+#include "crow_all.h"
+#include <iostream>
+#include <chrono>
+#include <thread>
+#include <string>
+#include <fstream>
+#include <vector>
+#include <limits.h>
+#include <sstream>
+#include <unistd.h>
+#include <string>
+#include <unordered_map>
+#include <algorithm>
+#include "Game.hpp"
+#include "Board.hpp"
+#include "Palindrome.hpp"
+#include "json.h"
+#include "Warriors.hpp"
+#include "Battle.hpp"
+#include "GameBoard.hpp"
+#include "Piece.hpp"
+#include "TicTacToeGame.hpp"
+#include "HeapSort.hpp"
+#include "MaxSubArray.hpp"
+#include "quicksort.hpp"
+#include "MST.hpp"
+
+using namespace std;
+using namespace crow;
+
+
+//Global hash of each instance of page
+unordered_map<string, Game> hangmanHash;
+unordered_map<string, string> palindromeHash;
+unordered_map<string, std::vector<Warrior>> warriorsHash;
+unordered_map<string, TicTacToeGame> ticTacToeGameHash;
+unordered_map<string, int*> heapSortHash;
+unordered_map<string, int*> maxSubArrayHash;
+unordered_map<string, int*> quickSortHash;
+unordered_map<string, Graph> MSThash;
+
+
+void sendFile(response &res, string fileName, string contentType){
+    auto ss = std::ostringstream{};
+    std::ifstream file("/usr/src/cppweb1/yaranon/public/" + fileName);
+    if(file){
+        ss << file.rdbuf();
+        res.set_header("Content-Type", contentType);
+        res.write(ss.str());
+        std::string fileContents = ss.str();
+    }
+    else{
+        char f[256];
+        res.code = 404;
+        res.write("FILE NOT FOUND!!");
+        res.write(getcwd(f, 256));
+    }
+    res.end();
+}
+
+void sendHTML(response &res, string fileName){
+    sendFile(res, "templates/" + fileName, "text/html");
+}
+
+void sendImage(response &res, string fileName){
+    sendFile(res, "images/" + fileName, "image/png");
+}
+
+void sendScript(response &res, string fileName){
+    sendFile(res, "scripts/" + fileName, "text/javascript");
+}
+
+void sendStyle(response &res, string fileName){
+    sendFile(res, "styles/" + fileName, "text/css");
+}
+
+int main(int argc, char* argv[]){
+
+    crow::SimpleApp app;
+
+    CROW_ROUTE(app, "/")([](const request &req, response &res){
+        sendHTML(res, "index.html"); //Loads initial HTML page
+    });
+
+    CROW_ROUTE(app, "/more.html")([](const request &req, response &res){
+        sendHTML(res, "more.html");
+    });
+
+    CROW_ROUTE(app, "/csprojects.html")([](const request &req, response &res){
+        sendHTML(res, "csprojects.html");
+    });
+
+    CROW_ROUTE(app, "/hangman/<string>")([&](const request &req, response &res, string ID){
+        chdir("usr/src/cppweb1/yaranon");
+        nlohmann::json x;
+        std::string letter;
+        if(req.url_params.get("theLetter") != nullptr){
+            letter = req.url_params.get("theLetter");
+        }
+        if(letter == "~~~~~"){
+            Game game = Game(1);
+            hangmanHash.insert({ID, game});
+            hangmanHash.at(ID).init();
+            x["word"] = hangmanHash.at(ID).getWord();
+            x["state"] = hangmanHash.at(ID).board.hangman;
+            x["category"] = hangmanHash.at(ID).categoryName;
+            x["dashes"] = hangmanHash.at(ID).board.dashes.size();
+            x["guesses"] = 6;
+            x["message"] = "Enter your guess: ";
+        }
+        else{
+            x = hangmanHash.at(ID).playGame(letter);
+        }
+        chdir("/");
+        res.sendJSON(x);
+    });
+
+    CROW_ROUTE(app, "/hangmanGUI/<string>")([&](const request &req, response &res, string ID){
+        chdir("usr/src/cppweb1/yaranon");
+        nlohmann::json x;
+        std::string letter;
+        if(req.url_params.get("theLetter") != nullptr){
+            letter = req.url_params.get("theLetter");
+        }
+        if(letter == "~"){
+            Game game = Game(1);
+            hangmanHash.insert({ID, game});
+            hangmanHash.at(ID).init();
+            hangmanHash.at(ID).pics = {"0_Hangman.png", "1_Hangman.png", "2_Hangman.png", "3_Hangman.png", "4_Hangman.png", "5_Hangman.png", "6_Hangman.png"};
+            x["word"] =  hangmanHash.at(ID).getWord();
+            x["pics"] =  hangmanHash.at(ID).pics;
+            x["category"] =  hangmanHash.at(ID).categoryName;
+            x["dashes"] =  hangmanHash.at(ID).board.dashes.size();
+            x["guesses"] =  hangmanHash.at(ID).guesses;
+        }
+        else{
+            x = hangmanHash.at(ID).playGame(letter);
+        }
+        chdir("/");
+        res.sendJSON(x);
+    });
+
+    CROW_ROUTE(app, "/palindromes/<string>/<string>")([](const request &req, response &res, string ID, string words){
+        chdir("usr/src/cppweb1/yaranon");
+        palindromeHash.insert({ID, words});
+        nlohmann::json x;
+        x = getPalindromes(palindromeHash.at(ID));
+        palindromeHash.erase(ID);
+        chdir("/");
+        res.sendJSON(x);
+    });
+
+    CROW_ROUTE(app, "/warriors/<string>")([](const request &req, response &res, string ID){
+        chdir("usr/src/cppweb1/yaranon");
+        std::vector<Warrior> listOfWarriors;
+        std::vector<std::string> print;
+        nlohmann::json x;
+        auto warriorNames = req.url_params.get_list("list");
+        for(const auto &i : warriorNames){
+            std::string name = i;
+            Warrior w = Warrior(5, 100, name);
+            listOfWarriors.push_back(w);
+        }
+        warriorsHash.insert({ID, listOfWarriors});
+        Battle battle;
+        print = battle.startFight(warriorsHash.at(ID));
+        x["print"] = print;
+        warriorsHash.erase(ID);
+        chdir("/");
+        res.sendJSON(x);
+    });
+
+    CROW_ROUTE(app, "/tictactoe/<string>")([](const request &req, response &res, string ID){
+        chdir("usr/src/cppweb1/yaranon");
+        std::string position;
+        int num;
+        nlohmann::json x;
+        if(req.url_params.get("thePosition") != nullptr){
+            position = req.url_params.get("thePosition");
+            num = stoi(position);
+        }
+        if(num == 2147483646){ //init call
+            TicTacToeGame game = TicTacToeGame();
+            ticTacToeGameHash.insert({ID, game});
+            x["gb"] = ticTacToeGameHash.at(ID).gb.boardVect;
+            x["turn"] = "X's turn. Enter a number 0 - 8 to place your piece: \r\n";
+        }
+        else{
+            x = ticTacToeGameHash.at(ID).playGame(num);
+            if(x["win"] != nullptr){
+                ticTacToeGameHash.erase(ID);
+            }
+        }
+        chdir("/");
+        res.sendJSON(x);
+    });
+
+    CROW_ROUTE(app, "/heapsort/<string>")([](const request &req, response &res, string ID){
+        chdir("usr/src/cppweb1/yaranon");
+        std::string strnum;
+        int num, index = 0;
+        nlohmann::json x;
+        auto list_nums = req.url_params.get_list("listOfNums");
+        int* arr = new int[list_nums.size()];
+        for(const auto &i : list_nums){
+            strnum = i;
+            num = stoi(strnum);
+            arr[index] = num;
+            index++;
+        }
+        heapSortHash.insert({ID, arr});
+        auto start = std::chrono::high_resolution_clock::now();
+        x = heapSort(heapSortHash.at(ID), index);
+        auto end = std::chrono::high_resolution_clock::now();
+        std::chrono::duration<float> duration = end - start;
+        float ms = duration.count() * 1000.0f;
+        x["time"] = ms;
+        delete[] arr;
+        heapSortHash.erase(ID);
+        chdir("/");
+        res.sendJSON(x);
+    });
+
+    CROW_ROUTE(app, "/maxSubArray/<string>")([](const request &req, response &res, string ID){
+        chdir("usr/src/cppweb1/yaranon");
+        nlohmann::json x;
+        std::string strnum;
+        int num, index = 0;
+        auto list_nums = req.url_params.get_list("listOfNums");
+        int* arr = new int[list_nums.size()];
+        for(const auto &i : list_nums){
+            strnum = i;
+            num = stoi(strnum);
+            arr[index] = num;
+            index++;
+        }
+        maxSubArrayHash.insert({ID, arr});
+        auto start = std::chrono::high_resolution_clock::now();
+        x["max"] = maxSubArray(maxSubArrayHash.at(ID), 0, index - 1);
+        auto end = std::chrono::high_resolution_clock::now();
+        std::chrono::duration<float> duration = end - start;
+        float ms = duration.count() * 1000.0f;
+        x["time"] = ms;
+        delete[] arr;
+        maxSubArrayHash.erase(ID);
+        chdir("/");
+        res.sendJSON(x);
+    });
+
+    CROW_ROUTE(app, "/MST/<int>/<int>/<string>/<string>")([](const request &req, response &res, int V, int E, string ID, string data){
+        chdir("usr/src/cppweb1/yaranon");
+        nlohmann::json x;
+        Graph G;
+        MSThash.insert({ID, G});
+        x = MSThash.at(ID).MST(V, E, data);
+        MSThash.erase(ID);
+        chdir("/");
+        res.sendJSON(x);
+    });
+
+
+    CROW_ROUTE(app, "/styles/<string>")([](const request &req, response &res, string fileName){
+        sendStyle(res, fileName); //Deals with any CSS
+    });
+
+    CROW_ROUTE(app, "/scripts/<string>")([](const request &req, response &res, string fileName){
+        sendScript(res, fileName); //Loads javascript dependencies
+    });
+
+    CROW_ROUTE(app, "/images/<string>")([](const request &req, response &res, string fileName){
+        sendImage(res, fileName); //Deals with any images we might use
+    });
+
+    //Necessary Crow stuff to run server 
+    char* port = getenv("PORT");
+    uint16_t iPort = static_cast<uint16_t>(port != NULL? stoi(port): 18080);
+    //cout << "PORT = " << iPort << '\n';
+    app.port(iPort).multithreaded().run();
+
+    return 0;
+}
+</textarea> <!-- END -->
+<br><br><br>
+
+<footer>
+    <div class="container">
+        <div class="row" style="height: 100px;">
+            <div class = "col-sm">
+                <a href="http://www.github.com/dyaranon" target="blank">
+                    <img src="../images/github-logo.png" style="height: 100px; width: 100px;">
+                </a>
+                <p5 class="chaletFontp1">GITHUB</p5>
+            </div>
+            <div class="col-sm">
+                <a href="https://www.linkedin.com/in/david-yaranon-06140019a/" target="blank">
+                    <img src="../images/linkedin-logo.png" id="images">
+                </a>
+                <p5 class="chaletFontp1">LINKEDIN</p5>
+            </div>
+            <div class="col-sm">
+                <a href="https://ucmerced.box.com/s/vzzmsxgvkmu6sf6w7g4edjoz3a0eju50" target="blank">
+                    <img src="../images/resume-picture.png" id="images">
+                </a>
+                <p5 class="chaletFontp1">RESUME</p5>
+            </div>
+            <div class="col-sm">
+                <a href="https://www.instagram.com/davidyaranon/" target="blank">
+                    <img src="../images/instagram-logo.png" id="images">
+                </a>
+                <p5 class="chaletFontp1">INSTAGRAM</p5>
+            </div>
+        </div>
+    </div>
+</footer>    
+<br><br>
+<footer style="text-align: center;">&copy; Copyright 2021 David Yaranon</footer>
+<br>
+
+
+</body>
+</html>
