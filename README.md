@@ -1,7 +1,7 @@
 # Resume_WebApp
 A SMALL SITE I MADE WHILE LEARNING HTML, CSS, JAVASCRIPT, and JQUERY. USES C++ BACKEND (CROW)
 
-CAN BE FOUND AT davidyaranon.app
+*** CAN BE FOUND AT davidyaranon.app ***
 
 Steps to run on localhost:8080
 1. Make sure Docker is installed!
@@ -14,5 +14,6 @@ Steps to run on localhost:8080
 8. exit
 9. docker run -v /local/cloned/folder/website/cppweb1:/usr/src/cppweb1 -p 8080:8080 -e PORT=8080 cppbox1:latest /usr/src/cppweb1/yaranon/build/yaranon
 10. open localhost:8080 in browser
+
 
 
